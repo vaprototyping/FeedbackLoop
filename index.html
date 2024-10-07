@@ -93,7 +93,8 @@
             window.voiceflow.chat.load({
               verify: { projectID: '66fe5b8156f888df5b84f70d' },
               url: 'https://general-runtime.voiceflow.com',
-              versionID: 'production'
+              versionID: 'production',  // Add a comma here
+              assistant: { stylesheet: "test.css" }  // Corrected this line
             });
           }
           v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
